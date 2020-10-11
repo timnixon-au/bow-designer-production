@@ -1,0 +1,16 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/nixontec/bow-designer-production/
+    - /bin/cp -R static $DEPLOYPATH
+    - /bin/cp .htaccess $DEPLOYPATH
+    - /bin/cp asset-manifest.json $DEPLOYPATH
+    - /bin/cp favicon.ico $DEPLOYPATH
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp logo192.png $DEPLOYPATH
+    - /bin/cp logo512.png $DEPLOYPATH
+    - /bin/cp manifest.json $DEPLOYPATH
+    - /bin/cp precache-manifest.88cb01ce49d581428101c67347992267.js $DEPLOYPATH
+    - /bin/cp README.md $DEPLOYPATH
+    - /bin/cp robots.txt $DEPLOYPATH
+    - /bin/cp service-worker.js $DEPLOYPATH
